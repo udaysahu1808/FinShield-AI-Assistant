@@ -51,7 +51,7 @@ FinShield is an AI-powered financial assistant that combines Machine Learning, E
 
 -- 
 ## Project Structure
-
+```
 FinShield-AI-Assistant/
 │
 ├── 📄 README.md                      # Project overview
@@ -158,3 +158,4 @@ FinShield-AI-Assistant/
     └── workflows/
         ├── python-app.yml
         └── tests.yml
+```
