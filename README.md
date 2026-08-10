@@ -1,4 +1,4 @@
-# 💳 FinShield AI Assistant
+[# 💳 FinShield AI Assistant
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)
 ![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)
@@ -15,7 +15,7 @@
 ![Anomaly Detection](https://img.shields.io/badge/Task-Fraud%20Detection-success)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
-An end-to-end financial intelligence platform that turns raw customer, credit, market, economic and news data into a unified **FinShield Score (0–1000)** — paired with SQL-based analytics, explainable credit-risk classification (SHAP), fraud/anomaly detection, market forecasting, NLP sentiment analysis, a decision-support recommendation engine, and an interactive AI chatbot for real-time customer risk lookup.
+An end-to-end financial intelligence platform that turns raw customer, credit, market, economic and news data into a unified **FinShield Score (0–1000)** is paired with SQL-based analytics, explainable credit-risk classification (SHAP), fraud/anomaly detection, market forecasting, NLP sentiment analysis, a decision-support recommendation engine, and an interactive AI chatbot for real-time customer risk lookup.
 
 ---
 
@@ -40,21 +40,21 @@ An end-to-end financial intelligence platform that turns raw customer, credit, m
 
 ## Project Introduction
 
-In today's rapidly evolving financial landscape, individuals, financial institutions, and investors face increasing challenges in accurately assessing financial risk and making informed investment decisions. Traditional risk assessment methods often rely on manual analysis, historical data interpretation, and expert judgment — approaches that are slow, prone to bias, and unable to adapt to dynamic market conditions. Many ML-based financial systems also operate as "black boxes," offering predictions without explaining the reasoning behind them.
+In today's rapidly evolving financial landscape, individuals, financial institutions, and investors face increasing challenges in accurately assessing financial risk and making informed investment decisions. Traditional risk assessment methods often rely on manual analysis, historical data interpretation and expert judgment of approaches that are slow, prone to bias, and unable to adapt to dynamic market conditions. Many ML-based financial systems also operate as "black boxes," offering predictions without explaining the reasoning behind them.
 
 **FinShield AI** is an intelligent, data-driven financial analytics platform designed to close that gap by combining Machine Learning with Explainable AI. The platform ingests customer profiles, credit history, transaction behavior, market data, macroeconomic indicators, and financial news to predict credit risk, detect fraud, forecast market movement, gauge sentiment, and produce a single, transparent financial-health score per customer — surfaced through an interactive Power BI-ready dataset and a conversational chatbot.
 
 The project is delivered across three notebooks that form one continuous pipeline:
 
-1. **Part 1 — Data Foundation & Engineering** (`Data_Engineering.ipynb`)
-2. **Part 2 — Machine Learning Engine** (`Risk_Intelligence.ipynb`)
-3. **Part 3 — Intelligence, Scoring & Explainability** (`FinShield_Engine.ipynb`)
+1. **Part 1 : Data Foundation & Engineering** (`Data_Engineering.ipynb`)
+2. **Part 2 : Machine Learning Engine** (`Risk_Intelligence.ipynb`)
+3. **Part 3 : Intelligence, Scoring & Explainability** (`FinShield_Engine.ipynb`)
 
 ---
 
 ## 📖 Problem Statement
 
-Develop an end-to-end AI-powered financial intelligence platform that predicts customer credit risk, evaluates financial health, detects anomalous behavior, segments customers based on financial profiles, and provides personalized, explainable recommendations — combining machine learning, explainable AI, business intelligence, and an AI chatbot to support transparent, data-driven decision-making for financial institutions.
+Develop an end-to-end AI-powered financial intelligence platform that predicts customer credit risk, evaluates financial health, detects anomalous behavior, segments customers based on financial profiles, and provides personalized, explainable recommendations of combining machine learning, explainable AI, business intelligence, and an AI chatbot to support transparent, data-driven decision-making for financial institutions.
 
 Using the **Home Credit Default Risk** dataset as the customer behavioral backbone, the system analyzes demographics, employment history, income, credit information, and loan characteristics to estimate default probability, generate interpretable risk scores, and recommend appropriate financial actions — improving loan approval decisions, reducing credit risk, and supporting financial advisors through an interactive assistant.
 
@@ -82,15 +82,15 @@ To develop an intelligent financial risk assessment and investment decision-supp
 
 ## 📚 Scope of the Study
 
-- **Data Engineering** — building customer profile, transaction, and credit-history tables from the Home Credit dataset; generating synthetic market, economic, and news datasets.
-- **SQL Database Design** — storage of raw, cleaned, and model-enriched tables.
-- **Exploratory Data Analysis (EDA)** — demographic distributions, correlation heatmaps, credit-risk relationships.
-- **Feature Engineering** — debt-to-income ratios, credit utilization, behavioral risk ratios.
-- **Machine Learning** — multi-class credit-risk classification (Low/Medium/High/Critical), Isolation Forest fraud detection, K-means-style customer segmentation.
-- **Time Series & NLP** — ARIMA market forecasting, TF-IDF financial-news sentiment scoring.
-- **Explainable AI** — global and individual SHAP-based risk explanations.
-- **Decision Support** — rule-based AI Recommendation Engine and alert-level triage.
-- **Conversational AI** — a lightweight chatbot interface for natural-language, real-time customer risk lookup.
+- **Data Engineering** is building customer profile, transaction, and credit-history tables from the Home Credit dataset; generating synthetic market, economic, and news datasets.
+- **SQL Database Design** a storage of raw, cleaned, and model-enriched tables.
+- **Exploratory Data Analysis (EDA)** makes demographic distributions, correlation heatmaps, credit-risk relationships.
+- **Feature Engineering**do debt-to-income ratios, credit utilization, behavioral risk ratios.
+- **Machine Learning**makes multi-class credit-risk classification (Low/Medium/High/Critical), Isolation Forest fraud detection, K-means-style customer segmentation.
+- **Time Series & NLP** is ARIMA market forecasting, TF-IDF financial-news sentiment scoring.
+- **Explainable AI** gives global and individual SHAP-based risk explanations.
+- **Decision Support** give rule-based AI Recommendation Engine and alert-level triage.
+- **Conversational AI** a lightweight chatbot interface for natural-language, real-time customer risk lookup.
 
 **Out of scope:** real-time trading, high-frequency trading algorithms, cryptocurrency prediction, automated portfolio execution, and payment-gateway integration.
 
@@ -161,12 +161,12 @@ FinShield-AI-Assistant/
 
 ## 💡 Key Insights
 
-1. **Credit risk is concentrated in Medium/High segments** — 28,062 customers Medium-risk and 24,642 High-risk, vs. 6,133 Low and 1,163 Critical, out of 60,000.
-2. **Credit score is the strongest predictor of risk** — ~66.5% of Random Forest feature importance, followed by late payments (~11.5%) and credit utilization (~7.1%).
-3. **Late payments are an early-warning signal** — the second most important feature, and ~23.7% of SHAP importance in high-risk explanations.
-4. **A meaningful default population exists** — 4,817 of 60,000 customers (8.03%) have recorded loan defaults, with an average credit score of 516.9 vs. 585.4 for non-defaulters.
-5. **Fraud monitoring adds an independent risk signal** — Isolation Forest flagged 1,200 of 60,000 customers (2.0%) as behaviorally anomalous.
-6. **Market and sentiment context sharpen the picture** — ARIMA forecasts and TF-IDF news-sentiment impact scores (e.g., INDUS +0.182, GRANITE −0.003) feed directly into the FinShield Score's market/sentiment components.
+1. **Credit risk is concentrated in Medium/High segments**  28,062 customers Medium-risk and 24,642 High-risk, vs. 6,133 Low and 1,163 Critical, out of 60,000.
+2. **Credit score is the strongest predictor of risk**  ~66.5% of Random Forest feature importance, followed by late payments (~11.5%) and credit utilization (~7.1%).
+3. **Late payments are an early-warning signal** the second most important feature, and ~23.7% of SHAP importance in high-risk explanations.
+4. **A meaningful default population exists**  4,817 of 60,000 customers (8.03%) have recorded loan defaults, with an average credit score of 516.9 vs. 585.4 for non-defaulters.
+5. **Fraud monitoring adds an independent risk signal**  Isolation Forest flagged 1,200 of 60,000 customers (2.0%) as behaviorally anomalous.
+6. **Market and sentiment context sharpen the picture**  ARIMA forecasts and TF-IDF news-sentiment impact scores (e.g., INDUS +0.182, GRANITE −0.003) feed directly into the FinShield Score's market/sentiment components.
 7. **SHAP delivers transparent, individual-level explanations**, letting risk teams see exactly why a customer was scored the way they were — beyond a single classification label.
 
 ---
@@ -175,7 +175,7 @@ FinShield-AI-Assistant/
 
 1. **Prioritize proactive intervention** for High and Critical-risk customers — credit restructuring, repayment planning, financial counselling.
 2. **Build an early-warning system** around credit score and late-payment trends, triggering automatic risk-score refreshes on deterioration.
-3. **Combine fraud alerts with credit-risk scores** — customers flagged on both dimensions should receive top priority in the FinShield Priority Alert workflow.
+3. **Combine fraud alerts with credit-risk scores** customers flagged on both dimensions should receive top priority in the FinShield Priority Alert workflow.
 4. **Introduce differentiated lending policies** by risk segment instead of applying uniform credit terms.
 5. **Manage investment exposure using market-risk and sentiment signals** alongside credit fundamentals.
 
@@ -221,7 +221,7 @@ jupyter notebook
 
 ```bash
 pip install streamlit pandas --break-system-packages
-streamlit run chatbot_app.py
+streamlit run app.py
 ```
 
 1. This launches the chatbot in your browser at `http://localhost:8501`.
@@ -257,14 +257,30 @@ streamlit run chatbot_app.py
 
 ## 📄 License
 
-Copyright (c) 2026
+Copyright © 2026 Uday Sahu
 
 All Rights Reserved.
 
-This project and all associated files are provided for viewing and portfolio demonstration purposes only. No part of this project may be reproduced, copied, modified, distributed, published, sublicensed, or sold in any form without prior written permission from the copyright holder. Unauthorized use of this project is strictly prohibited.
+This project and all associated files, including but not limited to source code, notebooks, reports, dashboards, visualizations, documentation, and datasets, are the exclusive intellectual property of Uday Sahu.
+
+No part of this project may be copied, reproduced, modified, distributed, published, sublicensed, displayed, transmitted, or sold in any form or by any means without the prior written permission of the copyright holder.
+
+Permission is granted only to view this project for personal, educational, or portfolio evaluation purposes. Commercial use, redistribution, and creation of derivative works are strictly prohibited.
+
+Unauthorized use, reproduction, or distribution of this project may result in legal action under applicable copyright laws.
+
+For permissions or licensing inquiries, please contact the copyright holder directly.
 
 ---
 
 ## 🙋 Author
 
-**Data Science Project | Financial Risk Intelligence & Explainable AI Domain**
+**Uday Sahu**
+
+**Data Analyst | Python | SQL | Power BI | Data Visualization | Business Analytics**
+
+Passionate about transforming raw data into meaningful business insights through analytics, visualization and automation.
+
+---
+
+⭐ **If you found this project helpful, consider giving it a Star!**
