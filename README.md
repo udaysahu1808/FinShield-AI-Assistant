@@ -79,16 +79,6 @@ FinShield-AI-Assistant/
 │   ├── 07_Explainable_AI_SHAP.ipynb
 │   └── 08_FinShield_AI_Full_Notebook.ipynb
 │
-├── 📁 src/
-│   ├── data_preprocessing.py
-│   ├── feature_engineering.py
-│   ├── model_training.py
-│   ├── model_evaluation.py
-│   ├── prediction.py
-│   ├── explainability.py
-│   ├── chatbot.py
-│   └── utils.py
-│
 ├── 📁 models/
 │   ├── trained_model.pkl
 │   ├── scaler.pkl
@@ -107,11 +97,6 @@ FinShield-AI-Assistant/
 │   │   ├── css/
 │   │   └── images/
 │   └── components/
-│
-├── 📁 dashboard/
-│   ├── PowerBI.pbix
-│   ├── screenshots/
-│   └── reports/
 │
 ├── 📁 sql/
 │   ├── database_schema.sql
