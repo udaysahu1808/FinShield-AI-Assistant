@@ -15,7 +15,7 @@
 ![Anomaly Detection](https://img.shields.io/badge/Task-Fraud%20Detection-success)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
-An end-to-end financial intelligence platform that turns raw customer, credit, market, economic and news data into a unified **FinShield Score (0–1000)** is paired with SQL-based analytics, explainable credit-risk classification (SHAP), fraud/anomaly detection, market forecasting, NLP sentiment analysis, a decision-support recommendation engine, and an interactive AI chatbot for real-time customer risk lookup.
+An end-to-end financial intelligence platform that turns raw customer, credit, market, economic and news data into a unified **FinShield Score (0–1000)** is paired with SQL based analytics, explainable credit-risk classification (SHAP), fraud/anomaly detection, market forecasting, NLP sentiment analysis, a decision-support recommendation engine and an interactive AI chatbot for real-time customer risk lookup.
 
 ---
 
