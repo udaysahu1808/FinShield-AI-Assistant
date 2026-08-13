@@ -173,7 +173,7 @@ FinShield-AI-Assistant/
 
 ## 🧭 Strategic Recommendations
 
-1. **Prioritize proactive intervention** for High and Critical-risk customers — credit restructuring, repayment planning, financial counselling.
+1. **Prioritize proactive intervention** for High and Critical-risk customers, credit restructuring, repayment planning, financial counselling.
 2. **Build an early-warning system** around credit score and late-payment trends, triggering automatic risk-score refreshes on deterioration.
 3. **Combine fraud alerts with credit-risk scores** customers flagged on both dimensions should receive top priority in the FinShield Priority Alert workflow.
 4. **Introduce differentiated lending policies** by risk segment instead of applying uniform credit terms.
@@ -206,16 +206,16 @@ jupyter notebook
 ```
 
 1. Place the Home Credit `application_train.csv` file where **Part 1** expects it, and update that file path in `Data_Engineering.ipynb`.
-2. Run `Data_Engineering.ipynb` (Part 1) first, start to finish — it builds `Data/raw/`, `Data/processed/`, and the SQL tables that later notebooks depend on.
-3. Run `Risk_Intelligence.ipynb` (Part 2) next — trains and saves the risk classifier, fraud model, ARIMA forecasts, and sentiment model to `Models/` and `outputs/`.
-4. Run `FinShield_Engine.ipynb` (Part 3) last — computes the FinShield Score, SHAP explanations, alert levels, and recommended actions, saving `outputs/finshield_scores.csv` and `outputs/risk_monitoring_decisions.csv`.
+2. Run `Data_Engineering.ipynb` (Part 1) first, start to finish & builds `Data/raw/`, `Data/processed/`, and the SQL tables that later notebooks depend on.
+3. Run `Risk_Intelligence.ipynb` (Part 2) next then trains and saves the risk classifier, fraud model, ARIMA forecasts, and sentiment model to `Models/` and `outputs/`.
+4. Run `FinShield_Engine.ipynb` (Part 3) last then computes the FinShield Score, SHAP explanations, alert levels, and recommended actions, saving `outputs/finshield_scores.csv` and `outputs/risk_monitoring_decisions.csv`.
 5. (Optional) Load the `outputs/` CSVs into Power BI for a dashboard view.
 
 ---
 
 ## 🤖 How to Run the Chatbot
 
-`chatbot_app.py` is a lightweight **Streamlit** chatbot that sits on top of the pipeline's final outputs. It lets a user type a customer ID (or ask a natural-language question) and get back that customer's FinShield Score, Financial Health tier, alert level, and recommended actions — in a conversational format.
+`chatbot_app.py` is a lightweight **Streamlit** chatbot that sits on top of the pipeline's final outputs. It lets a user type a customer ID (or ask a natural-language question) and get back that customer's FinShield Score, Financial Health tier, alert level and recommended actions in a conversational format.
 
 **Prerequisite:** Parts 1–3 must have already been run at least once, so that `outputs/finshield_scores.csv` and `outputs/risk_monitoring_decisions.csv` exist.
 
