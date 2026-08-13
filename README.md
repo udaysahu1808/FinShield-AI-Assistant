@@ -92,7 +92,7 @@ To develop an intelligent financial risk assessment and investment decision-supp
 - **Decision Support** give rule-based AI Recommendation Engine and alert-level triage.
 - **Conversational AI** a lightweight chatbot interface for natural-language, real-time customer risk lookup.
 
-**Out of scope:** real-time trading, high-frequency trading algorithms, cryptocurrency prediction, automated portfolio execution, and payment-gateway integration.
+**Out of scope:** real-time trading, high-frequency trading algorithms, cryptocurrency prediction, automated portfolio execution and payment-gateway integration.
 
 ---
 
@@ -136,23 +136,23 @@ FinShield-AI-Assistant/
 
 ## 🔍 Analysis Phases
 
-### Part 1 — Data Foundation & Engineering
+### Part 1 : Data Foundation & Engineering
 - **Phase 1:** Data Acquisition & Business Understanding
 - **Phase 2:** Data Cleaning + Handling Missing Values & Outliers
 - **Phase 3:** SQL Database Design & Loading
 - **Phase 4:** Exploratory Data Analysis (age, defaults, income vs. expenses, credit score vs. default, correlation heatmap, market/economic trends)
 
-### Part 2 — Machine Learning Engine
-- **Phase 5:** Risk Classification (Low / Medium / High / Critical) — Logistic Regression & Random Forest
-- **Phase 6:** Fraud / Anomaly Detection — Isolation Forest on behavioral ratios
-- **Phase 7:** Market Forecasting — ARIMA per company
-- **Phase 8:** NLP Financial Sentiment — TF-IDF + classifier, company-level impact scoring
+### Part 2 : Machine Learning Engine
+- **Phase 5:** Risk Classification (Low / Medium / High / Critical), Logistic Regression & Random Forest
+- **Phase 6:** Fraud / Anomaly Detection & Isolation Forest on behavioral ratios
+- **Phase 7:** Market Forecasting with ARIMA per company
+- **Phase 8:** NLP Financial Sentiment using TF-IDF + classifier, company-level impact scoring
 
-### Part 3 — Intelligence, Scoring & Explainability
-- **Phase 9:** The FinShield Score (0–1000) — blending credit, market, economic & sentiment risk into a Financial Health tier
-- **Phase 10:** Explainable AI (SHAP) — global feature importance & individual customer explanations
-- **Phase 11:** Risk Monitoring & Segmentation — alert levels (Normal/Watch/Warning/Critical) & behavioral segments
-- **Phase 12:** AI Recommendation Engine (Decision Center) — rule-based recommended actions per customer
+### Part 3 : Intelligence, Scoring & Explainability
+- **Phase 9:** The FinShield Score (0–1000) that blending credit, market, economic & sentiment risk into a Financial Health tier
+- **Phase 10:** Explainable AI (SHAP) that give global feature importance & individual customer explanations
+- **Phase 11:** Risk Monitoring & Segmentation with alert levels (Normal/Watch/Warning/Critical) & behavioral segments
+- **Phase 12:** AI Recommendation Engine (Decision Center) rule-based recommended actions per customer
 - **Phase 13:** Business Insight
 - **Phase 14:** Strategic Recommendations
 - **Phase 15:** Executive Summary, Future Scope & Conclusion
