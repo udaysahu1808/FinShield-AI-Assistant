@@ -54,9 +54,9 @@ The project is delivered across three notebooks that form one continuous pipelin
 
 ## 📖 Problem Statement
 
-Develop an end-to-end AI-powered financial intelligence platform that predicts customer credit risk, evaluates financial health, detects anomalous behavior, segments customers based on financial profiles, and provides personalized, explainable recommendations of combining machine learning, explainable AI, business intelligence, and an AI chatbot to support transparent, data-driven decision-making for financial institutions.
+Develop an end-to-end AI-powered financial intelligence platform that predicts customer credit risk, evaluates financial health, detects anomalous behavior, segments customers based on financial profiles, and provides personalized, explainable recommendations of combining machine learning, explainable AI, business intelligence and an AI chatbot to support transparent, data-driven decision-making for financial institutions.
 
-Using the **Home Credit Default Risk** dataset as the customer behavioral backbone, the system analyzes demographics, employment history, income, credit information, and loan characteristics to estimate default probability, generate interpretable risk scores, and recommend appropriate financial actions — improving loan approval decisions, reducing credit risk, and supporting financial advisors through an interactive assistant.
+Using the **Home Credit Default Risk** dataset as the customer behavioral backbone, the system analyzes demographics, employment history, income, credit information and loan characteristics to estimate default probability, generate interpretable risk scores and recommend appropriate financial actions improving loan approval decisions, reducing credit risk and supporting financial advisors through an interactive assistant.
 
 ---
 
@@ -66,14 +66,14 @@ Using the **Home Credit Default Risk** dataset as the customer behavioral backbo
 To develop an intelligent financial risk assessment and investment decision-support platform that leverages Machine Learning (ML) and Explainable AI (XAI) to provide accurate, transparent, and data-driven financial insights.
 
 **Specific Objectives:**
-- To collect, clean, and preprocess customer, credit, market, economic, and news data for predictive modeling.
+- To collect, clean and preprocess customer, credit, market, economic, and news data for predictive modeling.
 - To design a relational (SQL) data foundation for structured storage and querying.
 - To identify the key financial indicators that influence credit risk and financial health.
 - To develop and compare multiple ML models (Logistic Regression, Random Forest) for risk-tier classification.
 - To detect anomalous/fraudulent financial behavior using Isolation Forest.
 - To forecast market movement per company using ARIMA time-series models.
 - To score financial news sentiment using TF-IDF and classify its market impact.
-- To engineer a composite **FinShield Score (0–1000)** blending credit, market, economic, and sentiment risk.
+- To engineer a composite **FinShield Score (0–1000)** blending credit, market, economic and sentiment risk.
 - To integrate Explainable AI (SHAP) for transparent, individual-level risk explanations.
 - To build an AI Recommendation Engine that converts risk scores into concrete monitoring actions.
 - To develop an interactive **AI chatbot** that lets users query a customer's FinShield profile in natural language.
