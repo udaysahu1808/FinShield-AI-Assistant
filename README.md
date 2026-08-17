@@ -267,7 +267,7 @@ No part of this project may be copied, reproduced, modified, distributed, publis
 
 Permission is granted only to view this project for personal, educational or portfolio evaluation purposes. Commercial use, redistribution and creation of derivative works are strictly prohibited.
 
-Unauthorized use, reproduction, or distribution of this project may result in legal action under applicable copyright laws.
+Unauthorized use, reproduction or distribution of this project may result in legal action under applicable copyright laws.
 
 For permissions or licensing inquiries, please contact the copyright holder directly.
 
