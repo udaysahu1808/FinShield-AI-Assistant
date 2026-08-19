@@ -116,19 +116,81 @@ To develop an intelligent financial risk assessment and investment decision-supp
 
 ```
 FinShield-AI-Assistant/
+├── .devcontainer/
+│   └── devcontainer.json
 │
-├── Data_Engineering.ipynb        # Part 1: Data Foundation & Engineering
-├── Risk_Intelligence.ipynb       # Part 2: Machine Learning Engine
-├── FinShield_Engine.ipynb        # Part 3: Intelligence, Scoring & Explainability
-├── chatbot_app.py                # Streamlit chatbot for FinShield score lookup
+├── Chatbot Visuals/
+│   ├── App-Running-Working.mp4
+│   ├── Customer Table.png
+│   ├── Executive Dashboard.png
+│   ├── Front Interface.png
+│   ├── Front Interface 2.png
+│   ├── Image & Video Analysis.png
+│   ├── LLM Provider.png
+│   ├── Predefined Questions.png
+│   └── System Health.png
+│
+├── Dashboard/
+│   ├── Customer Table.png
+│   └── Executive Dashboard.png
 │
 ├── Data/
-│   ├── raw/                      # market_data, economic_indicators, news_sentiment
-│   └── processed/                # cleaned customer_profile, transactions, credit_history
-├── Models/                       # risk_classifier_rf.pkl, fraud model, sentiment model
-├── outputs/                      # finshield_scores.csv, risk_monitoring_decisions.csv, etc.
-├── SQL/                          # database schema & queries
+│   ├── Processed/
+│   │   ├── credit_history_clean.xls
+│   │   ├── customer_profile_clean.xls
+│   │   ├── economic_indicators_clean.xls
+│   │   ├── financial_transactions_clean.xls
+│   │   ├── market_data_clean.xls
+│   │   └── news_sentiment_clean.xls
+│   └── Raw/
+│       ├── credit_history.xls
+│       ├── customer_profile.xls
+│       ├── economic_indicators.xls
+│       ├── financial_transactions.xls
+│       ├── market_data.xls
+│       └── news_sentiment.xls
+│
 ├── Documentation/
+│   ├── FinShield AI Assistant Report.pdf
+│   └── FinShield-AI-Assistant.pptx
+│
+├── FinShield Chatbot/
+│   ├── Outputs/
+│   │   ├── company_sentiment_impact.csv
+│   │   ├── finshield_scores.csv
+│   │   ├── fraud_scores.csv
+│   │   ├── market_forecasts.csv
+│   │   └── risk_monitoring_decisions.csv
+│   ├── Models/
+│   │   ├── fraud_isolation_forest.pkl
+│   │   ├── risk_classifier_logreg.pkl
+│   │   ├── risk_classifier_rf.zip
+│   │   ├── risk_scaler.pkl
+│   │   ├── sentiment_classifier.pkl
+│   │   └── sentiment_vectorizer.pkl
+│   ├── .env.example
+│   ├── app.py
+│   ├── requirements.txt
+│   └── secrets.toml
+│
+├── Notebook/
+│   ├── Data Engineering.ipynb
+│   ├── FinShield Engine.ipynb
+│   └── Risk Intelligence.ipynb
+│
+├── SQL/
+│   └── FinShield_DB.sqlite
+│
+├── Visuals/
+│   ├── Credit Score Distribution by Loan Status.png
+│   ├── Customer Age Distribution.png
+│   ├── Financial & Credit Risk Correlation Matrix.png
+│   ├── Loan Default Distribution.png
+│   ├── Macroeconomics Indicators Trend.png
+│   ├── Monthly Income vs Expense.png
+│   └── Top 15 Features by SHAP Importance.png
+│
+├── LICENSE
 └── README.md
 ```
 
