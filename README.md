@@ -161,17 +161,18 @@ FinShield-AI-Assistant/
 │   │   ├── fraud_scores.csv
 │   │   ├── market_forecasts.csv
 │   │   └── risk_monitoring_decisions.csv
-│   ├── Models/
-│   │   ├── fraud_isolation_forest.pkl
-│   │   ├── risk_classifier_logreg.pkl
-│   │   ├── risk_classifier_rf.zip
-│   │   ├── risk_scaler.pkl
-│   │   ├── sentiment_classifier.pkl
-│   │   └── sentiment_vectorizer.pkl
 │   ├── .env.example
 │   ├── app.py
 │   ├── requirements.txt
 │   └── secrets.toml
+│
+├── Models/
+│   ├── fraud_isolation_forest.pkl
+│   ├── risk_classifier_logreg.pkl
+│   ├── risk_classifier_rf.zip
+│   ├── risk_scaler.pkl
+│   ├── sentiment_classifier.pkl
+│   └── sentiment_vectorizer.pkl
 │
 ├── Notebook/
 │   ├── Data Engineering.ipynb
