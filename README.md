@@ -103,7 +103,7 @@ To develop an intelligent financial risk assessment and investment decision-supp
 **Derived / synthetic tables built in Part 1:**
 | Table | Description |
 |---|---|
-| `customer_profile` | Demographics — age, gender, occupation, education, city tier, family status |
+| `customer_profile` | Demographics - age, gender, occupation, education, city tier, family status |
 | `financial_transactions` | Monthly income/expense, savings, investments, loan amount, EMI, transaction count |
 | `credit_history` | Credit score, previous loans, late payments, credit-card count, credit utilization |
 | `market_data` | Daily OHLC-style price series for 10 synthetic companies (ALPHA–JOVIAN), 2024–2025 |
