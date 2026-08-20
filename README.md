@@ -66,7 +66,7 @@ Using the **Home Credit Default Risk** dataset as the customer behavioral backbo
 To develop an intelligent financial risk assessment and investment decision-support platform that leverages Machine Learning (ML) and Explainable AI (XAI) to provide accurate, transparent, and data-driven financial insights.
 
 **Specific Objectives:**
-- To collect, clean and preprocess customer, credit, market, economic, and news data for predictive modeling.
+- To collect, clean and preprocess customer, credit, market, economic and news data for predictive modeling.
 - To design a relational (SQL) data foundation for structured storage and querying.
 - To identify the key financial indicators that influence credit risk and financial health.
 - To develop and compare multiple ML models (Logistic Regression, Random Forest) for risk-tier classification.
