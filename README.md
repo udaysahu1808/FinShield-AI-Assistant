@@ -268,7 +268,7 @@ pip install pandas numpy scikit-learn lightgbm statsmodels shap joblib matplotli
 jupyter notebook
 ```
 
-1. Place the Home Credit `application_train.csv` file where **Part 1** expects it, and update that file path in `Data_Engineering.ipynb`.
+1. Place the Home Credit `application_train.csv` file where **Part 1** expects it and update that file path in `Data_Engineering.ipynb`.
 2. Run `Data_Engineering.ipynb` (Part 1) first, start to finish & builds `Data/raw/`, `Data/processed/`, and the SQL tables that later notebooks depend on.
 3. Run `Risk_Intelligence.ipynb` (Part 2) next then trains and saves the risk classifier, fraud model, ARIMA forecasts, and sentiment model to `Models/` and `outputs/`.
 4. Run `FinShield_Engine.ipynb` (Part 3) last then computes the FinShield Score, SHAP explanations, alert levels, and recommended actions, saving `outputs/finshield_scores.csv` and `outputs/risk_monitoring_decisions.csv`.
